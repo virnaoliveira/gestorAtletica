@@ -1,0 +1,145 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "gestorAtletica/1.0.0": {
+        "dependencies": {
+          "Sql2Sql.Npgsql": "1.0.0"
+        },
+        "runtime": {
+          "gestorAtletica.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {},
+      "Npgsql/4.0.10": {
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "System.Threading.Tasks.Extensions": "4.5.2",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Npgsql.dll": {
+            "assemblyVersion": "4.0.10.0",
+            "fileVersion": "4.0.10.0"
+          }
+        }
+      },
+      "Sql2Sql/1.0.0.2": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Sql2Sql.Mapper": "1.0.0.17",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Sql2Sql.dll": {
+            "assemblyVersion": "1.0.0.2",
+            "fileVersion": "1.0.0.2"
+          }
+        }
+      },
+      "Sql2Sql.Mapper/1.0.0.17": {
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Sql2Sql.Mapper.dll": {
+            "assemblyVersion": "1.0.0.17",
+            "fileVersion": "1.0.0.17"
+          }
+        }
+      },
+      "Sql2Sql.Npgsql/1.0.0": {
+        "dependencies": {
+          "Npgsql": "4.0.10",
+          "Sql2Sql": "1.0.0.2",
+          "Sql2Sql.Mapper": "1.0.0.17"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sql2Sql.Npgsql.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {},
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
+      "System.Threading.Tasks.Extensions/4.5.2": {},
+      "System.ValueTuple/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "gestorAtletica/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "Npgsql/4.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+nsndx6jxTep0TgPuql/TA4nEv37umWN7MWDr/0a4DUYbX2ouKlYoodgrsHkYtRoLDj52+Otnw8ON+PRPB+FvQ==",
+      "path": "npgsql/4.0.10",
+      "hashPath": "npgsql.4.0.10.nupkg.sha512"
+    },
+    "Sql2Sql/1.0.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j50uwLNbTITxAX4gvRGm1lgo+xYoC1XTqWJDRHsbZvoaW4jE48EUTydsr/h/2Bx3QwwTfgtWbkhkAk/84WrZtg==",
+      "path": "sql2sql/1.0.0.2",
+      "hashPath": "sql2sql.1.0.0.2.nupkg.sha512"
+    },
+    "Sql2Sql.Mapper/1.0.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kE102jq849BSL+RmVDIkDHDjNpuCHotJ6T729Lpn5lVCp9dTUlo5x8XxH8VNLPdhC933CjlBDDTArTOsfynWkQ==",
+      "path": "sql2sql.mapper/1.0.0.17",
+      "hashPath": "sql2sql.mapper.1.0.0.17.nupkg.sha512"
+    },
+    "Sql2Sql.Npgsql/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XGpRsCcybGGxTcbb6BofR8WANBS7584b7ueasiMTsoJVFbTpqIYkPAINX4RKr7+1JGmR699seT4VJUVHWmc2Gg==",
+      "path": "sql2sql.npgsql/1.0.0",
+      "hashPath": "sql2sql.npgsql.1.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "hashPath": "system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    }
+  }
+}

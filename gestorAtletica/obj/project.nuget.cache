@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "A2AjTvKmFxRc4m0AIXiW9iCMy46Is8VfC98zy8qHXedcNKmYtTngit16IWZaqUIhZOwsVShKLvJHm7G7OtFqFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Virna\\source\\repos\\gestorAtletica\\gestorAtletica\\gestorAtletica.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Virna\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Virna\\.nuget\\packages\\npgsql\\4.0.10\\npgsql.4.0.10.nupkg.sha512",
+    "C:\\Users\\Virna\\.nuget\\packages\\sql2sql\\1.0.0.2\\sql2sql.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\Virna\\.nuget\\packages\\sql2sql.mapper\\1.0.0.17\\sql2sql.mapper.1.0.0.17.nupkg.sha512",
+    "C:\\Users\\Virna\\.nuget\\packages\\sql2sql.npgsql\\1.0.0\\sql2sql.npgsql.1.0.0.nupkg.sha512",
+    "C:\\Users\\Virna\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Virna\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Virna\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "C:\\Users\\Virna\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Sql2Sql.Npgsql 1.0.0 depende de Sql2Sql.Mapper (>= 1.0.0.8), mas Sql2Sql.Mapper 1.0.0.8 não foi encontrado. A melhor correspondência aproximada de Sql2Sql.Mapper 1.0.0.17 foi resolvida.",
+      "libraryId": "Sql2Sql.Mapper",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
