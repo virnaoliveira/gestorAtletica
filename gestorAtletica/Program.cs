@@ -15,8 +15,8 @@ namespace MembrosApp
                 connection.Open();
 
                 Console.WriteLine("Escolha uma operação:");
-                Console.WriteLine("1. Incluir Membro");
-                Console.WriteLine("2. Visualizar Lista de Membros");
+                Console.WriteLine("1. Incluir Plano");
+                Console.WriteLine("2. Visualizar Lista de Planos");
 
                 int opcao = int.Parse(Console.ReadLine());
 
